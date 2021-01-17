@@ -50,7 +50,7 @@ namespace R4TSquad_DTool
         {
             Console.Title = "R4TSquad-DTool - Mango#3580";
             Console.WriteLine("Customize this to your liking :)");
-            Console.ReadLine();
+            //Readline Fix
 
 
             string IP = new WebClient().DownloadString("https://api.ipify.org/"); // IP Checker
@@ -86,6 +86,7 @@ namespace R4TSquad_DTool
                         }
                     }
                 }
+                Console.ReadLine();
             }
         }
     }
