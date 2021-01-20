@@ -86,8 +86,8 @@ namespace R4TSquad_DTool
                         }
                     }
                 }
-                Console.ReadLine();
             }
+            Console.ReadLine();
         }
     }
 }
